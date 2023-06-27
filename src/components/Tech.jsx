@@ -28,7 +28,7 @@ const TechCard = ({ index, icon }) => {
 const Tech = () => {
   return (
     <>
-    <motion.div variants={textVariant()}>
+    {/* <motion.div variants={textVariant()}>
       <p className={`${styles.sectionSubText} text-center`}>My tools</p>
       <h2 className={`${styles.sectionHeadText} text-center`}>Technologies</h2>
     </motion.div>
@@ -43,7 +43,7 @@ const Tech = () => {
         {technologies.map((technology) => (
           <TechCard icon={technology.icon} key={technology.name} />
         ))}
-    </div>
+    </div> */}
     </>
   );
 };

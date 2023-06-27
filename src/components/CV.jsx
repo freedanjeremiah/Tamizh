@@ -22,20 +22,23 @@ const Card = ({ index, text, name, designation, company, image }) => (
 
       <div className="mt-7 flex justify-between items-center gap-1">
         <div className="flex-1 flex flex-col">
+        <pre className="text-white font-black text-[48px]">        "</pre>
           <p className="text-white font-medium text-[16px]">
-            <span className="blue-text-gradient">@</span> {name}
+            <span className="blue-text-gradient">lokesh.tamizh@proton.com</span> {name}
           </p>
           <p className="mt-1 text-secondary text-[12px]">
             {designation} of {company}
           </p>
+          
         </div>
-
+    
         <img
           src={image}
           alt={`feedback_by-${name}`}
           className="w-10 h-10 rounded-full object-cover"
         />
       </div>
+      
     </div>
   </motion.div>
 )
@@ -47,8 +50,8 @@ const CV = () => {
         className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>For employers</p>
-          <h2 className={styles.sectionHeadText}>My CV.</h2>
+          <p className={styles.sectionSubText}>Tamizh</p>
+          <h2 className={styles.sectionHeadText}>Vision</h2>
         </motion.div>
       </div>
       <div
@@ -66,11 +69,8 @@ const CV = () => {
             <section className="w-[360px] h-[360px]">
             <PeopleCanvas/>
             </section>
-              <a href={CVDoc} download>
-                <button className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary text-[21px]">
-                  Download CV
-                </button>
-              </a>
+              
+              
             
           </div>
         </motion.div>

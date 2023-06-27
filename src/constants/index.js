@@ -41,7 +41,7 @@ import {
     },
     {
       id: "cv",
-      title: "CV",
+      title: "vision",
     },
     {
       id: "contact",
@@ -192,34 +192,34 @@ import {
   ];
   const myWords = [
     {
-      text: "Here you can download my СV by clicking on Download button. I will be glad to our cooperation.",
-      name: "Rohit Dey",
-      designation: "CSE Student",
-      company: "MCKV Institute of Engineering",
+      text: "To innovative, adapt and be a hub to solve problems arising in the globalized world.",
+      name: "Lokesh",
+      designation: "Managing partner",
+      company: "Tamizh",
       image: me,
     },
   ]
 
   const projects = [
     {
-      name: "Aimage",
+      name: "Kaipesi",
       description:
-        "A modern image generating web Application to generate images from prompt or your imagination.",
+        "Improvising the UI to an other level, Gesture to it's full capability",
       tags: [
         {
-          name: "react",
+          name: "Unity",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Embedded system",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Extended reality",
           color: "pink-text-gradient",
         },
         {
-          name: "express",
+          name: "react native",
           color: "orange-text-gradient",
         },
       ],

@@ -84,8 +84,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()} className="px-6">
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <p className={`${styles.sectionSubText} `}>Our Current</p>
+        <h2 className={`${styles.sectionHeadText}`}>Project!</h2>
       </motion.div>
 
       <div className='px-6 w-full flex'>
@@ -93,9 +93,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] leading-[30px]'
         >
-          I am excited to share with you some of the pet-projects that showcase my skills and experience. Each project has been carefully crafted and developed to demonstrate my expertise with various technologies and programming languages.
+          Users can explore virtual environments, interact with virtual objects, and merge digital content with the real world,
+           opening up new possibilities for entertainment, education, training, and various industries.
           <br/><br/>
-          You'll find a brief description of each project along with links to their respective code repositories and live demos. I hope that these projects give you a glimpse into my problem-solving skills and ability to manage projects effectively.
+          Extended Reality (XR) project combine virtual reality (VR),
+           augmented reality (AR), and mixed reality (MR) technologies to create immersive and interactive experiences.
         </motion.p>
       </div>
 
@@ -109,11 +111,10 @@ const Works = () => {
           variants={textVariant()}
           className="mt-24 text-secondary text-[21px] max-w-3xl leading-[30px] text-center"
         >
-          Did you like it? This and much more you can find in my GitHub at the
-          link below.
+          Please standby cause we are currently cooking the product
         </motion.p>
 
-        <div
+        {/* <div
           className="green-pink-gradient p-[1px] rounded-full flex justify-center items-center cursor-pointer mt-4"
           onClick={() => window.open(myGithub, "_blank")}
         >
@@ -126,7 +127,7 @@ const Works = () => {
 
             <p className="text-[21px]">GitHub</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
