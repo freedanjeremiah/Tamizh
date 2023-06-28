@@ -23,7 +23,7 @@ const Card = ({ index, text, name, designation, company, image }) => (
         <div className="flex-1 flex flex-col">
         <pre className="text-white font-black text-[48px]">        "</pre>
           <p className="text-white font-medium text-[16px]">
-            <span className="blue-text-gradient">lokesh.tamizh@proton.com</span> {name}
+            <span className="blue-text-gradient">lokeshwaran.tamizh@proton.me</span> {name}
           </p>
           <p className="mt-1 text-secondary text-[12px]">
             {designation} of {company}
@@ -31,11 +31,11 @@ const Card = ({ index, text, name, designation, company, image }) => (
           
         </div>
     
-        <img
-          src={image}
-          alt={`feedback_by-${name}`}
-          className="w-10 h-10 rounded-full object-cover"
-        />
+          {/* <img
+            src={image}
+            alt={`feedback_by-${name}`}
+            className="w-10 h-10 rounded-full object-cover"
+          /> */}
       </div>
       
     </div>
@@ -66,13 +66,12 @@ const CV = () => {
         >
           <div className="flex min-[850px]:flex-row flex-col justify-around items-center">
             <section className="w-[360px] h-[360px]">
+              
             <PeopleCanvas/>
             </section>
-              
-              
-            
-          </div>
+              </div>
         </motion.div>
+        
       </div>
     </div>
   )

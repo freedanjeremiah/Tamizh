@@ -55,7 +55,7 @@ import {
       icon: web,
     },
     {
-      title: "Airtificial Inteligence",
+      title: "Artificial Intelligence",
       icon: mobile,
     },
     {
