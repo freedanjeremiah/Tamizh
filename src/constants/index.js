@@ -225,8 +225,8 @@ import {
       ],
       image: aimage,
       website_image: openai,
-      source_code_link: "https://github.com/Myself-Rohit-Dey/aimage",
-      website_link: "http://myselfrohitdey.000webhostapp.com/"
+      source_code_link: "",
+      website_link: ""
     },
     
   ];
