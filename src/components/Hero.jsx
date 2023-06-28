@@ -11,21 +11,21 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 green-gradient"/>
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Bonjur!&nbsp;
+          <h1 className={`${styles.heroHeadText} text-white`}>தமிழ |&nbsp;
             <span className="text-1">Tamizh</span>
             <span className="text-2">Tamizh</span>
           </h1>
           <p className={`${styles.heroSubText} invisible md:visible mt-2 text-white-100 inner-headings `}>We
           <section className="ch-word ">
-            <span className="word1 text-red-500"><div>Dream </div></span>
-            <span className="word2 text-blue-500"><div>Design</div></span>
-            <span className="word3 text-yellow-500"><div>Develop</div></span>
+            <span className="word1 text-red-500"><div>Think </div></span>
+            <span className="word2 text-blue-500"><div>Adapt</div></span>
+            <span className="word3 text-yellow-500"><div>Evolve</div></span>
           </section>
           </p>
           <p className={`${styles.heroSubText} visible md:invisible mt-2 text-white-100 `}>We
-          <span className="word1 text-red-400"> Dream</span>
-            <span className="word2 text-blue-400">Design</span>
-            <span className="word3 text-yellow-400"> Develop</span>
+          <span className="word1 text-red-400"> Think</span>
+            <span className="word2 text-blue-400">Adapt</span>
+            <span className="word3 text-yellow-400">Evolve</span>
           </p>
 
         </div>

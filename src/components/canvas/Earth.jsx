@@ -9,9 +9,9 @@ const Earth = () => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor="black" />
+      <hemisphereLight intensity={1} groundColor="black" />
       <Spotlight position={[-90, -20, 10]} />
-      <primitive object={earth.scene} scale={2.2} position-y={0} rotation-y={0} />
+      <primitive object={earth.scene} scale={0.12} position-y={0} rotation-y={0} />
     </mesh>
   );
 };

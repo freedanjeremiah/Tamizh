@@ -1,11 +1,11 @@
 Model Information:
-* title:	Earth with Mountains and Atmosphere
-* source:	https://sketchfab.com/3d-models/earth-with-mountains-and-atmosphere-97ecc0ebec5d41088811e993bc764a81
-* author:	CHRIS .capycoil (https://sketchfab.com/capycoil)
+* title:	Metal Dragon
+* source:	https://sketchfab.com/3d-models/metal-dragon-05df4712251a423fbf50ed209ff3fb71
+* author:	Vetech82 (https://sketchfab.com/Vetech82)
 
 Model License:
-* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
-* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Earth with Mountains and Atmosphere" (https://sketchfab.com/3d-models/earth-with-mountains-and-atmosphere-97ecc0ebec5d41088811e993bc764a81) by CHRIS .capycoil (https://sketchfab.com/capycoil) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+This work is based on "Metal Dragon" (https://sketchfab.com/3d-models/metal-dragon-05df4712251a423fbf50ed209ff3fb71) by Vetech82 (https://sketchfab.com/Vetech82) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

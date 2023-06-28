@@ -125,8 +125,8 @@ import {
   
   const experiences = [
     {
-      title: "Kaipesi",
-      company_name: "From Tamizh",
+      title: "KAIPESI",
+      company_name: "Tamizh",
       icon: gssoc,
       iconBg: "#E6DEDD",
       date: "June 2023 - ongoing",
@@ -137,11 +137,11 @@ import {
       ],
     },
     {
-      title: "Embeded systems",
+      title: "Embedded Services",
       company_name: "Tamizh",
       icon: qwiklabs,
       iconBg: "#E6DEDD",
-      date: "June 2023 - Jun 2021",
+      date: "June 2023 - Ongoing",
       points: [
         "Improvising to the clouds ☁️ ",
          " Infrastructure optimizing",

@@ -28,7 +28,7 @@ import lgmsoc from "./company/LGMSoC.png";
 import gssoc from "./company/GSSoC.png"
 import qwiklabs from "./company/qwiklabs.png";
 
-import aimage from "./aimage.png";
+import aimage from "./aimage.gif";
 
 import openai from "./website/openai.png";
 

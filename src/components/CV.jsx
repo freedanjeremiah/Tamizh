@@ -8,7 +8,6 @@ import { PeopleCanvas } from './canvas';
 
 
 import { myWords } from "../constants"
-import CVDoc from "../assets/Resume.pdf"
 
 const Card = ({ index, text, name, designation, company, image }) => (
   <motion.div
