@@ -31,10 +31,10 @@ import {
       id: "about",
       title: "About",
     },
-    {
-      id: "work",
-      title: "Tracks",
-    },
+    // {
+    //   id: "work",
+    //   title: "Tracks",
+    // },
     {
       id: "projects",
       title: "Projects",
@@ -193,7 +193,7 @@ import {
   const myWords = [
     {
       text: "To innovative, adapt and be a hub to solve problems arising in the globalized world.",
-      name: "Lokesh",
+      name: "Lokeshwaran",
       designation: "Managing partner",
       company: "Tamizh",
       image: me,
