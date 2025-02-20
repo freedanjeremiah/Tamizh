@@ -25,7 +25,7 @@ jobs:
       - name: 🔨 Install Dependencies
         if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: |
-          npm install
+          npm install --force
         env:
          NODE_OPTIONS: "--max_old_space_size=4096"
          CI: false
