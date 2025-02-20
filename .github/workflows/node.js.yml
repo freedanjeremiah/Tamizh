@@ -32,7 +32,7 @@ jobs:
       - name: 🏗 Build Project
         run: npm run build
       - name: 📂 Sync folders and files to the server
-        uses: Tamizh/FTP-Deploy-Action@4.3.3
+        uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
