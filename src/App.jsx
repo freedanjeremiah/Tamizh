@@ -1,25 +1,26 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import { About, Contact, Experience, CV, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import Footer from './components/Footer';
+import Layout from './components/Layout';
+import Home from './components/Home';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import TermsOfUse from './components/TermsOfUse';
+import NoPage from './components/NoPage';
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-[#030D0E]">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-          <Navbar />
-          <Hero />
-        </div>
-        <About />
-        <Experience />
-        <Tech />
-        <Works />
-        <CV />
-        <div className='relative z-0'>
-          <Contact />
-          <StarsCanvas />
-        </div>
-      </div>
+    <Routes>
+
+    <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="terms-of-use" element={<TermsOfUse />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+
+    </Routes>
+     
     </BrowserRouter>
   );
   

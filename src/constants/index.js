@@ -41,7 +41,7 @@ import {
     },
     {
       id: "cv",
-      title: "vision",
+      title: "Vision",
     },
     {
       id: "contact",
@@ -194,7 +194,7 @@ import {
     {
       text: "To innovative, adapt and be a hub to solve problems arising in the globalized world.",
       name: "Lokeshwaran",
-      designation: "Managing partner",
+      designation: "Founder",
       company: "Tamizh",
       image: me,
     },

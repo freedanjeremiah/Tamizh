@@ -7,6 +7,13 @@ import { EarthCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
 import { slideIn } from "../utils/motion"
 import Popup from "./Popup"
+import { logo } from "../assets"
+import { FaMapMarked } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
+
+import { FaPhoneVolume } from "react-icons/fa6";
+
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -82,9 +89,49 @@ const Contact = () => {
 
   return (
   <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
+
+    <div className="flex-1 p-8">
+
+      <div className="w-full  text-center md:text-left mb-4 md:mb-0">
+          <div className=''>
+              <div className="flex justify-start items-center">
+                <img src={logo} alt="logo" className="w-20 h-20 object-contain"/>
+                <div className='ml-5'>
+                    <h5 className="font-bold text-5xl">TAMIZH</h5>
+                </div>
+              </div>
+              <p className="mt-2 md:mt-5"> <span className="font-bold ">CIN </span>
+                - U26409TN2024PTC173084
+              </p>
+          </div>
+
+    <div className="flex gap-3 justify-start items-start mt-5"><FaMapMarked className="flex-shrink-0 mt-1" size={20}/>
+    <p><span className="font-bold">Registered Address</span> - 4/2A/1, Labour School Street, Karai, Ranipet, Tamil Nadu, India - 632404</p>
+    </div>
+
+    
+    <div className="flex gap-3 justify-start items-start mt-5"><FaMapMarked className="flex-shrink-0 mt-1" size={20}/>
+    <p><span className="font-bold">Branch Address</span> - 106, Second Floor, Platinum Jubilee building, AC Tech Campus, Anna University, Guindy, Chennai, Tamil Nadu, India - 600025</p>
+    </div>
+
+
+    <div className="flex gap-3 justify-start items-start mt-5"><FaPhoneVolume className="flex-shrink-0 mt-1" size={18}/>
+    <p><span className="font-bold">Phone Number</span> : +91 91760 90092</p>
+    </div>
+
+      
+    <div className="flex gap-3 justify-start items-start mt-5"><IoIosMail className="flex-shrink-0 mt-1" size={22}/>
+    <p><span className="font-bold">Mail ID</span> : contact@tamizh.co.in</p>
+    </div>
+
+      </div>
+      
+    </div>
+
+
     <motion.div
       variants={slideIn("left", "tween", 0.2, 1)}
-      className="flex-[0.62] bg-black-100 p-8 rounded-2xl"
+      className="flex-1 bg-black-100 p-8 rounded-2xl"
     >
       <p className={styles.sectionSubText}>Get in touch</p>
       <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -132,13 +179,6 @@ const Contact = () => {
           {loading ? "Sending..." : "Send"}
         </button>
       </form>
-    </motion.div>
-
-    <motion.div
-      variants={slideIn("right", "tween", 0.2, 1)}
-      className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
-    >
-      <EarthCanvas />
     </motion.div>
 
     {showPopup && (

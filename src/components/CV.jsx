@@ -23,10 +23,10 @@ const Card = ({ index, text, name, designation, company, image }) => (
         <div className="flex-1 flex flex-col">
         <pre className="text-white font-black text-[48px]">        "</pre>
           <p className="text-white font-medium text-[16px]">
-            <span className="blue-text-gradient">lokeshwaran.tamizh@proton.me</span> {name}
+            <span className="blue-text-gradient">lokeshwaran.e@tamizh.co.in</span> {name}
           </p>
           <p className="mt-1 text-secondary text-[12px]">
-            {designation} of {company}
+            {designation} - {company}
           </p>
           
         </div>
@@ -49,7 +49,7 @@ const CV = () => {
         className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>Tamizh</p>
+          <p className={styles.sectionSubText}>Company</p>
           <h2 className={styles.sectionHeadText}>Vision</h2>
         </motion.div>
       </div>
@@ -77,4 +77,4 @@ const CV = () => {
   )
 }
 
-export default SectionWrapper(CV, "cv")
+export default SectionWrapper(CV, "vision")

@@ -46,16 +46,7 @@ const ProjectCard = ({
           />
             </div> */}
             <div className="px-1"></div>
-            <div
-              onClick={() => window.open(website_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-            src={image}
-            alt={`feedback_by-${name}`}
-            className="w-10 h-10 rounded-full object-cover"
-          />
-            </div>
+           
           </div>
         </div>
 
