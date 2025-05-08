@@ -44,6 +44,7 @@ const PrivacyPolicy = () => {
 
         <div>
           <h2 className="text-2xl font-bold">3. How We Use Your Information</h2>
+          <p>We use your data to: </p>
           <ul className="list-disc pl-6">
             <li>Provide, improve, and personalize our services</li>
             <li>Respond to inquiries or technical support</li>
@@ -54,6 +55,7 @@ const PrivacyPolicy = () => {
 
         <div>
           <h2 className="text-2xl font-bold">4. Data Sharing and Disclosure</h2>
+          <p>We do not sell your information. We may share data:</p>
           <ul className="list-disc pl-6">
             <li>
               With trusted service providers for technical/marketing support
